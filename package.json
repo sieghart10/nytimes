@@ -1,0 +1,16 @@
+{
+  "name": "newyorktimes",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build --public-url https://sieghart10.github.io/nytimes/ src/index.html && rm -rf docs && mv dist docs",
+    "dev": "parcel serve src/nytimes/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
